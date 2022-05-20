@@ -1,0 +1,152 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+
+body {
+    background-color: rgb(76, 116, 247);
+    
+}
+
+.main {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.titulo {
+    color: darkblue;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.input-texto {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+   
+    
+}
+
+
+.output-texto {
+    position: relative;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 25px;
+    border-radius: 25px;
+    background-image: url("Imagens/cadeado_transparente.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    
+    
+}
+
+.botoes1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+
+.encriptar {
+    background-color: darkcyan;
+    color: darkblue;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 15px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    
+}
+
+.desencriptar {
+    background-color: darkcyan  ;
+    color: darkblue;
+    font-size: 25px;
+    margin-left: 20px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    
+}
+
+.label-info {
+    font-size: 15px;
+    color: darkblue;
+    
+}
+
+.botoes2 {
+    display: flex;
+    margin-top: 7px;
+    position: relative;
+    margin-top: 7px;
+    margin-left: 60px;
+
+    
+}
+
+.copiar-colar {
+    background-color: darkcyan;
+    color: darkblue;
+    font-size: 25px;
+    margin-left: 60px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    
+    
+
+}
+
+.limpar {
+    background-color: darkcyan;
+    color: darkblue;
+    font-size: 25px;
+    margin-left: 18px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    
+
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.author {
+    text-align: center;
+    padding: 0.11em;
+    margin-left: 100px;
+}
+
+
+
+.author img {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-bottom: 0;
+}
+
+.author p{
+    font-size:.5rem;
+    color: darkblue;
+    padding-top:0%;
+    line-height: 0%;
+}
+

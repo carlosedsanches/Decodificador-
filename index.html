@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img src="/Imagens/logoalura.png" alt="Logo da Alura com a inicial da letra a">
+        <h1 class="titulo">Decodificador de texto</h1>
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto:"></textarea>
+            <div id="img">
+                <img src="Imagens/logo-atencao.png"><label class="label-info">Apenas letras minúsculas e sem acento</label>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="output-texto" cols="18" rows="8" placeholder="Nenhuma mensagem encontrada. Digite um texto que você deseja criptografar ou descriptografar."readonly></textarea>
+            <div class="botoes2">
+                <button class="copiar-colar" onclick="copyToClipBoard()">
+                    Copiar
+               
+                <button class="limpar" onclick="btnLimpar()">
+                    Limpar
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="author">
+        <a href = "https://www.linkedin.com//" target="_blank"><img src="/Imagens/linkedin_icone2.png" alt="icone linkedin"></a> 
+        <a href ="https://github.com/" target="_blank"><img src="/Imagens/github_icone2.png" alt="icone github"></a> 
+        <p>© Criado por Carlos Sanches - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
